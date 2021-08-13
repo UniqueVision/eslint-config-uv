@@ -41,10 +41,7 @@ module.exports = {
     'object-curly-spacing': [ERROR, 'always'],
     'object-curly-newline': [ERROR, {
       'ObjectExpression': 'always',
-      'ObjectPattern': {
-        'multiline': true,
-        'minProperties': 2,
-      },
+      'ObjectPattern': 'never',
       'ImportDeclaration': 'never',
       'ExportDeclaration': {
         'multiline': true,
@@ -121,7 +118,7 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': IGNORE,
     '@typescript-eslint/no-inferrable-types': IGNORE,
     '@typescript-eslint/no-empty-interface': IGNORE,
-    '@typescript-eslint/no-unused-vars': [ERROR, {
+    '@typescript-eslint/no-unused-vars': [WARN, {
       'argsIgnorePattern': '^_',
     }],
     '@typescript-eslint/semi': [ERROR, 'always', {

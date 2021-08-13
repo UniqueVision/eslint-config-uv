@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-misha",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Misha's TypeScript and Vue ESLint configurations.",
   "author": "Misha Soliterman <msoliter@gmail.com>",
   "license": "MIT",
