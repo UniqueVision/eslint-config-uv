@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-misha",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Misha's TypeScript and Vue ESLint configurations.",
   "author": "Misha Soliterman <msoliter@gmail.com>",
   "license": "UNLICENSED",
@@ -12,12 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/misha/eslint.git"
   },
-  "peerDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.29.1",
     "@typescript-eslint/parser": "^4.29.1",
     "@vue/eslint-config-typescript": "^7.0.0",
-    "eslint": ">= 7",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "eslint-plugin-vue": "^7.16.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 7"
   }
 }
