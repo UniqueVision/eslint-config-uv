@@ -118,6 +118,7 @@ module.exports = {
     '@typescript-eslint/no-use-before-define': IGNORE,
     '@typescript-eslint/no-inferrable-types': IGNORE,
     '@typescript-eslint/no-empty-interface': IGNORE,
+    '@typescript-eslint/no-non-null-assertion': IGNORE,
     '@typescript-eslint/no-unused-vars': [WARN, {
       'argsIgnorePattern': '^_',
     }],
