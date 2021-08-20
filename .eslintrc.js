@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '../config/vue3.js'
+    './vue3.js'
   ],
 }

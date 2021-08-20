@@ -9,6 +9,16 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
   name: 'App',
+  props: {
+
+    /**
+     * Some description.
+     */
+    value: {
+      type: String,
+      default: '',
+    },
+  },
   setup() {
     const x = {
       x: 5,
