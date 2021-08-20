@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-uv",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "UniqueVision TypeScript and Vue ESLint configurations.",
   "author": "Misha Soliterman <misha_soliterman@uniquevision.co.jp>",
   "license": "MIT",
