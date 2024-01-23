@@ -1,5 +1,10 @@
 # UniqueVision ESLint Configuration
 
+## Maintenance Suspension Notice
+
+- We have discontinued this maintenance, please use eslint-config-recommended or a similar configuration.
+- 私たちはこのメンテナンスを中止しました。代わりに eslint-config-recommended または類似の設定をご利用ください。
+
 ## Install
 
 ```sh
